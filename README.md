@@ -4,6 +4,10 @@ React Native - Teams App Clone
 
 <p align="center">React Native - Teams App Clone for study purposes.</p>
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/92890340/145456038-9f5d4df0-53ca-4851-9e9b-380bcfc4a30d.png" width="50%" height="50%" alt="print-app">
+</div>
+
 
 
 <hr>
@@ -30,4 +34,5 @@ React Native - Teams App Clone
 
 1. Run `npm install` or `yarn install`.<br />
 2. Run `yarn start` or `npm start`
+
 
