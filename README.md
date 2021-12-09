@@ -22,6 +22,7 @@ React Native - Teams App Clone
 
 ## Techs
 
+- [x] TypeScript
 - [x] React.js
 - [x] React Native
 - [x] Expo
