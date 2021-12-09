@@ -1,10 +1,15 @@
 import React from "react";
 import { View, Text } from "react-native";
+import { Header } from "../../components/Header";
 
 export const Activities = () => {
   return (
-    <View>
-      <Text>Activities</Text>
-    </View>
+    <>
+      <Header />
+
+      <View>
+        <Text>Activities</Text>
+      </View>
+    </>
   );
 };

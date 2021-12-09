@@ -1,4 +1,5 @@
 import React, { useMemo } from "react";
+import { SafeAreaView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Chat } from "../../modules/Chat";
@@ -46,6 +47,7 @@ export const Tabs = () => {
   return (
     <NavigationContainer>
       <Tab.Navigator
+        initialRouteName="Chat"
         screenOptions={({ route }) => ({
           tabBarIcon: ({ focused, color, size }) => {
             const routeName = icons[route.name];
@@ -54,6 +56,7 @@ export const Tabs = () => {
           },
           tabBarActiveTintColor: "#585AC5",
           tabBarInactiveTintColor: "gray",
+          headerShown: false,
         })}
       >
         <Tab.Screen name="Activities" component={Activities} />
